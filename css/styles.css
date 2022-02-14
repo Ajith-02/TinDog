@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   color: #fff;
 }
 #title {
@@ -30,21 +30,46 @@ h1 {
   line-height: 1.5;
 }
 
-.download-button{
-margin: 5% 3% 5% 0;
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
-.googleplay-button{
-    margin: 5% 3% 5% 0;
+.googleplay-button {
+  margin: 5% 3% 5% 0;
 }
 
-.title-image{
-    width: 60%;
-    transform: rotate(25deg);
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
 }
 
 /* font-family: 'Ubuntu', sans-serif; */
 
-#features{
-    color: #000;
+#features {
+  color: #000;
+  padding: 7% 12%;
+}
+
+.features-box {
+  text-align: center;
+  padding: 3%;
+}
+
+h3{
+    font-family: "Montserrat";
+  /* font-weight: 300; */
+  /* font-weight: bold;  */
+} 
+p{
+  color: #8f8f8f;
+}
+
+.fa-solid{
+  font-size: 3rem;
+  padding: 10px;
+  color: #ef8172;
+}
+
+.fa-solid:hover{
+  color: #ff4c68;
 }
