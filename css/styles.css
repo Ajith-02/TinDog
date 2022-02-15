@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -40,8 +40,10 @@ h1 {
 }
 
 .title-image {
-  width: 60%;
+  width: 21%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
 
 /* font-family: 'Ubuntu', sans-serif; */
@@ -49,6 +51,9 @@ h1 {
 #features {
   color: #000;
   padding: 7% 12%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .features-box {
