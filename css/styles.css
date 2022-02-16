@@ -70,7 +70,7 @@ p{
   color: #8f8f8f;
 }
 
-.fa-solid{
+.features-icon{
   font-size: 3rem;
   padding: 10px;
   color: #ef8172;
@@ -123,10 +123,36 @@ margin: 2%;
   text-align: center;
 }
 
+#cta{
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+  /* padding: 40px 25px 60px 40px; */
+  padding: 5% 12%;
+}
 
-/* .pricing-column{
-  padding: 3% 1%;
+.cta-heading{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-weight: bold; 
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* .cta-btn{
+  margin: 10px;
 } */
+
+#footer{
+  text-align: center;
+  padding: 5% 10%; /*top&bottom left&righr*/
+  /* padding: 60px 0 15px 0; */
+  line-height: 2;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
 
 @media (max-width:950px){
   #title{
